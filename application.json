@@ -1,7 +1,7 @@
 {
   "appIsExample": false,
   "appLayout": {
-    "type": "FLUID"
+    "type": "MOBILE"
   },
   "applicationDetail": {
     "appPositioning": {
@@ -32,14 +32,10 @@
     {
       "id": "DashBoard",
       "isDefault": false
-    },
-    {
-      "id": "AddVehicle",
-      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "MOBILE"
   },
   "unpublishedApplicationDetail": {
     "appPositioning": {
