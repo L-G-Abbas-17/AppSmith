@@ -27,11 +27,11 @@
   "pages": [
     {
       "id": "Log In Page",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "DashBoard",
-      "isDefault": false
+      "isDefault": true
     }
   ],
   "unpublishedAppLayout": {
