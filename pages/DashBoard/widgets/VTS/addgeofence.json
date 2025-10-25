@@ -1,0 +1,47 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 66,
+  "boxShadow": "none",
+  "buttonColor": "#22c55e",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "pwxulk1tba",
+  "leftColumn": 43,
+  "minWidth": 120,
+  "mobileBottomRow": 68,
+  "mobileLeftColumn": 43,
+  "mobileRightColumn": 59,
+  "mobileTopRow": 64,
+  "needsErrorInfo": false,
+  "onClick": "{{Add_Geofence.run()}}",
+  "parentColumnSpace": 6.53125,
+  "parentId": "y67wffs8s3",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 59,
+  "text": "Add",
+  "topRow": 62,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "kvd99ejw7s",
+  "widgetName": "addgeofence"
+}

@@ -32,8 +32,8 @@
     }
   },
   "columnOrder": [
-    "vehicle_id",
     "VIN",
+    "vehicle_id",
     "DeviceSerialNumber",
     "VehicleName",
     "carCompany",
@@ -60,7 +60,7 @@
     "TripStopTime",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1761410282643,
+  "columnUpdatedAt": 1761412306698,
   "columnWidthMap": {},
   "customIsLoading": false,
   "customIsLoadingValue": "",

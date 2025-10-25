@@ -1,0 +1,9 @@
+{{ 
+{
+	"id":geofenceid.text,
+	"name":GeofenceName.text,
+	"latitude":Map.selectedMarker.lat,
+	"longitude":Map.selectedMarker.long,
+	"radius":radiusscale.value
+}
+}}

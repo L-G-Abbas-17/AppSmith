@@ -234,6 +234,51 @@
       "version": 1,
       "widgetId": "nvj0uev21d",
       "widgetName": "Canvas5"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 710,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "1b20yd4qsb",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 760,
+      "minWidth": 450,
+      "mobileBottomRow": 761,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1093,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "t09ney1vqh",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1093,
+      "tabId": "tabtieu3j1hv0",
+      "tabName": "Add GeoFence",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "y67wffs8s3",
+      "widgetName": "Canvas6"
     }
   ],
   "defaultTab": "Dashboard",
@@ -311,6 +356,13 @@
       "isVisible": true,
       "label": "Dashboard",
       "widgetId": "ma6608lqmq"
+    },
+    "tabtieu3j1hv0": {
+      "id": "tabtieu3j1hv0",
+      "index": 5,
+      "isVisible": true,
+      "label": "Add GeoFence",
+      "widgetId": "y67wffs8s3"
     }
   },
   "topRow": 0,

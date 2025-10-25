@@ -1,0 +1,60 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "bottomRow": 55,
+  "defaultValue": "100",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "0qvrsbjc45",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Radius",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 8,
+  "leftColumn": 2,
+  "marks": [
+    {
+      "label": "25%",
+      "value": 25
+    },
+    {
+      "label": "50%",
+      "value": 50
+    },
+    {
+      "label": "75%",
+      "value": 75
+    }
+  ],
+  "max": "500",
+  "min": "0",
+  "mobileBottomRow": 51,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 34,
+  "mobileTopRow": 43,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 6.53125,
+  "parentId": "y67wffs8s3",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "shouldScroll": false,
+  "shouldTruncate": false,
+  "showMarksLabel": true,
+  "sliderSize": "m",
+  "step": 1,
+  "tooltipAlwaysOn": false,
+  "topRow": 50,
+  "type": "NUMBER_SLIDER_WIDGET",
+  "version": 1,
+  "widgetId": "r1sfg0ig6z",
+  "widgetName": "radiusscale"
+}

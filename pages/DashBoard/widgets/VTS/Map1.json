@@ -1,0 +1,54 @@
+{
+  "allowZoom": true,
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 41,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultMarkers": [
+    {
+      "lat": 40.7128,
+      "long": -74.006,
+      "title": "New York"
+    }
+  ],
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "enableMapTypeControl": false,
+  "enablePickLocation": true,
+  "enableSearch": true,
+  "flexVerticalAlignment": "start",
+  "isClickedMarkerCentered": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "h7e995s47l",
+  "leftColumn": 0,
+  "mapCenter": {
+    "lat": 40.7128,
+    "long": -74.006
+  },
+  "minWidth": 450,
+  "mobileBottomRow": 41,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 30,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 6.53125,
+  "parentId": "y67wffs8s3",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "topRow": 1,
+  "type": "MAP_WIDGET",
+  "version": 1,
+  "widgetId": "zkhox1un02",
+  "widgetName": "Map1",
+  "zoomLevel": 50
+}
