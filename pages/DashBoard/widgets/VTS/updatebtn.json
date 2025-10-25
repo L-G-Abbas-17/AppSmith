@@ -11,7 +11,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -24,6 +28,7 @@
   "mobileRightColumn": 61,
   "mobileTopRow": 45,
   "needsErrorInfo": false,
+  "onClick": "{{Updatevehicle.run()}}",
   "parentColumnSpace": 13.5634765625,
   "parentId": "ughhm39pqv",
   "parentRowSpace": 10,

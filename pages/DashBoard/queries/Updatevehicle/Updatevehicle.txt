@@ -1,0 +1,10 @@
+{{ 
+{
+	"VIN":Vehicleeditpage.selectedRow.VIN,
+	"VehicleName":Vehicleeditpage.selectedRow.VehicleName,
+	"modelName":Vehicleeditpage.selectedRow.modelName,
+	"modelYear":Vehicleeditpage.selectedRow.modelYear,
+	"vehicleType":Vehicleeditpage.selectedRow.vehicleType,
+	"DeviceSerialNumber":Vehicleeditpage.selectedRow.DeviceSerialNumber
+}
+}}
