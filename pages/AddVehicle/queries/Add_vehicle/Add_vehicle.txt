@@ -1,0 +1,12 @@
+{{ 
+{
+	"VIN":vin.text,
+	"VehicleName":vehiclename.text,
+	"carCompany":carcompany.text,
+	"modelName":modelname.text,
+	"modelYear":modelyear.text,
+	"DeviceSerialNumber":deviceserialnumber.text,
+	"vehicleType":vehicletype.text
+}
+
+}}
