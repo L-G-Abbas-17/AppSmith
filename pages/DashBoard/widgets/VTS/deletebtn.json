@@ -1,50 +1,42 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 41,
+  "bottomRow": 49,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#b91c1c",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
-      "key": "buttonColor"
-    },
-    {
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicTriggerPathList": [],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "a3luija9b9",
-  "leftColumn": 34,
+  "key": "etieow5eby",
+  "leftColumn": 44,
   "minWidth": 120,
-  "mobileBottomRow": 74,
-  "mobileLeftColumn": 16,
-  "mobileRightColumn": 32,
-  "mobileTopRow": 70,
+  "mobileBottomRow": 49,
+  "mobileLeftColumn": 44,
+  "mobileRightColumn": 60,
+  "mobileTopRow": 45,
   "needsErrorInfo": false,
-  "onClick": "{{Update_vehicle.run()}}",
-  "parentColumnSpace": 19.21875,
-  "parentId": "abjnoai6ql",
+  "parentColumnSpace": 13.5634765625,
+  "parentId": "nvj0uev21d",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 39,
-  "text": "Update",
-  "topRow": 37,
+  "rightColumn": 60,
+  "text": "Delete",
+  "topRow": 45,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "znzpcd3qyz",
-  "widgetName": "Update"
+  "widgetId": "x9olkg0ba7",
+  "widgetName": "deletebtn"
 }
