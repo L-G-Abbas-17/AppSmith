@@ -528,7 +528,7 @@
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
-  "isVisible": "{{ appsmith.URL.queryParams.token == \"secret123\" }}\n",
+  "isVisible": "{{ appsmith.store.isLoggedIn === true }}",
   "key": "1jvvxjdwt0",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
