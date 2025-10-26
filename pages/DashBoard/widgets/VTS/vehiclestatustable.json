@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 58,
+  "bottomRow": 54,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -32,7 +32,7 @@
     }
   },
   "columnOrder": [],
-  "columnUpdatedAt": 1761452171259,
+  "columnUpdatedAt": 1761458292627,
   "columnWidthMap": {},
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -56,7 +56,11 @@
       "key": "tableData"
     }
   ],
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "enableClientSideSearch": true,
   "endOfData": false,
@@ -70,30 +74,30 @@
   "isVisibleFilters": false,
   "isVisiblePagination": true,
   "isVisibleSearch": true,
-  "key": "1dxqc5txwn",
+  "key": "bk3aaa2n1m",
   "label": "Data",
   "leftColumn": 0,
   "minWidth": 450,
-  "mobileBottomRow": 36,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 35,
-  "mobileTopRow": 8,
+  "mobileBottomRow": 38,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 34,
+  "mobileTopRow": 10,
   "needsErrorInfo": false,
   "parentColumnSpace": 6.53125,
-  "parentId": "lnyzw1asr5",
+  "parentId": "ld3f3yuimf",
   "parentRowSpace": 10,
   "primaryColumns": {},
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 62,
   "searchKey": "",
-  "tableData": "{{stop.data}}",
+  "tableData": "{{vehiclestatus.data}}",
   "textSize": "0.875rem",
-  "topRow": 8,
+  "topRow": 10,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",
-  "widgetId": "idgsismvha",
-  "widgetName": "stopTable"
+  "widgetId": "o7g2ycvl45",
+  "widgetName": "vehiclestatustable"
 }
