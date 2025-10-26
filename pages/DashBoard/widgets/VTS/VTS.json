@@ -279,6 +279,231 @@
       "version": 1,
       "widgetId": "y67wffs8s3",
       "widgetName": "Canvas6"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 710,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "c10gf4vq9k",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 760,
+      "minWidth": 450,
+      "mobileBottomRow": 761,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1093,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "t09ney1vqh",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1093,
+      "tabId": "tabycfk9xdoss",
+      "tabName": "Stop",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "lnyzw1asr5",
+      "widgetName": "Canvas7"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 710,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "c10gf4vq9k",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 760,
+      "minWidth": 450,
+      "mobileBottomRow": 761,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1093,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "t09ney1vqh",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1093,
+      "tabId": "tabj4xf75oky1",
+      "tabName": "Speeding",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "4n9ag5ee02",
+      "widgetName": "Canvas8"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 710,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "c10gf4vq9k",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 760,
+      "minWidth": 450,
+      "mobileBottomRow": 761,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1093,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "t09ney1vqh",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1093,
+      "tabId": "taba7yaq6g2zp",
+      "tabName": "Map",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "6ul23ub6h6",
+      "widgetName": "Canvas9"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 710,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "c10gf4vq9k",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 760,
+      "minWidth": 450,
+      "mobileBottomRow": 761,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1093,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "t09ney1vqh",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1093,
+      "tabId": "tabxeo4gb7nkv",
+      "tabName": "Vehicle Status",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "ld3f3yuimf",
+      "widgetName": "Canvas10"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 710,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "c10gf4vq9k",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 760,
+      "minWidth": 450,
+      "mobileBottomRow": 761,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1093,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "t09ney1vqh",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1093,
+      "tabId": "tabml724h3c0a",
+      "tabName": "Trips",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "9altcw85q4",
+      "widgetName": "Canvas11"
     }
   ],
   "defaultTab": "Dashboard",
@@ -317,7 +542,7 @@
   "tabsObj": {
     "tab1": {
       "id": "tab1",
-      "index": 2,
+      "index": 4,
       "isDuplicateLabel": false,
       "isVisible": true,
       "label": "Add Vehicle",
@@ -326,12 +551,20 @@
     },
     "tab2": {
       "id": "tab2",
-      "index": 3,
+      "index": 5,
       "isDuplicateLabel": false,
       "isVisible": true,
       "label": "Edit Vehicle",
       "positioning": "vertical",
       "widgetId": "ughhm39pqv"
+    },
+    "taba7yaq6g2zp": {
+      "id": "taba7yaq6g2zp",
+      "index": 3,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "Map",
+      "widgetId": "6ul23ub6h6"
     },
     "tabbo9sdvglhi": {
       "id": "tabbo9sdvglhi",
@@ -343,11 +576,26 @@
     },
     "tabdhxdxtewqe": {
       "id": "tabdhxdxtewqe",
-      "index": 4,
+      "index": 6,
       "isDuplicateLabel": false,
       "isVisible": true,
       "label": "Delete vehicle",
       "widgetId": "nvj0uev21d"
+    },
+    "tabj4xf75oky1": {
+      "id": "tabj4xf75oky1",
+      "index": 9,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "Speeding",
+      "widgetId": "4n9ag5ee02"
+    },
+    "tabml724h3c0a": {
+      "id": "tabml724h3c0a",
+      "index": 10,
+      "isVisible": true,
+      "label": "Trips",
+      "widgetId": "9altcw85q4"
     },
     "tabpgdoqfw8oq": {
       "id": "tabpgdoqfw8oq",
@@ -359,10 +607,27 @@
     },
     "tabtieu3j1hv0": {
       "id": "tabtieu3j1hv0",
-      "index": 5,
+      "index": 7,
+      "isDuplicateLabel": false,
       "isVisible": true,
       "label": "Add GeoFence",
       "widgetId": "y67wffs8s3"
+    },
+    "tabxeo4gb7nkv": {
+      "id": "tabxeo4gb7nkv",
+      "index": 2,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "Vehicle Status",
+      "widgetId": "ld3f3yuimf"
+    },
+    "tabycfk9xdoss": {
+      "id": "tabycfk9xdoss",
+      "index": 8,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "Stop",
+      "widgetId": "lnyzw1asr5"
     }
   },
   "topRow": 0,

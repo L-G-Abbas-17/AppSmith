@@ -1,7 +1,9 @@
 {
   "animateLoading": true,
+  "backgroundColor": "#ffffff",
+  "borderColor": "#231f20",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 46,
+  "bottomRow": 15,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,45 +13,42 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
+  "fontSize": "0.875rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
   "key": "02ge77qgzg",
-  "leftColumn": 1,
+  "leftColumn": 6,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 45,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 17,
-  "mobileTopRow": 41,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "originalBottomRow": 46,
-  "originalTopRow": 41,
+  "originalBottomRow": 14,
+  "originalTopRow": 4,
   "overflow": "NONE",
   "parentColumnSpace": 6.53125,
-  "parentId": "y67wffs8s3",
+  "parentId": "ma6608lqmq",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 30,
+  "rightColumn": 26,
   "shouldTruncate": false,
-  "text": "Latitude :\t            {{addgeofenceMap.center.lat}}",
-  "textAlign": "LEFT",
+  "text": "\nNumber Of Vehicles\n\n0\n\n",
+  "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 41,
+  "topRow": 4,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "ir6y13qbuk",
-  "widgetName": "latitude"
+  "widgetId": "qymjracgei",
+  "widgetName": "numberOfVehicles"
 }
