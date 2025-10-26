@@ -29,6 +29,8 @@
   "mobileTopRow": 64,
   "needsErrorInfo": false,
   "onClick": "{{Add_Geofence.run()}}",
+  "originalBottomRow": 66,
+  "originalTopRow": 62,
   "parentColumnSpace": 6.53125,
   "parentId": "y67wffs8s3",
   "parentRowSpace": 10,

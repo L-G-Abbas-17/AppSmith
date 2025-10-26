@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{{ \n{\n\t\"id\":geofenceid.text,\n\t\"name\":GeofenceName.text,\n\t\"latitude\":Map.selectedMarker.lat,\n\t\"longitude\":Map.selectedMarker.long,\n\t\"radius\":radiusscale.value\n}\n}}",
+      "body": "{{ \n{\n\t\"id\":geofenceid.text,\n\t\"name\":GeofenceName.text,\n\t\"latitude\":addgeofenceMap.center.lat,\n\t\"longitude\":addgeofenceMap.center.long,\n\t\"radius\":radiusscale.value\n}\n}}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

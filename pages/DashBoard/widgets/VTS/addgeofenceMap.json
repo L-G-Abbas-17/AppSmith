@@ -49,6 +49,6 @@
   "type": "MAP_WIDGET",
   "version": 1,
   "widgetId": "zkhox1un02",
-  "widgetName": "Map1",
+  "widgetName": "addgeofenceMap",
   "zoomLevel": 50
 }
