@@ -26,11 +26,11 @@
   "icon": "smartphone",
   "pages": [
     {
-      "id": "Log In Page",
+      "id": "Login",
       "isDefault": true
     },
     {
-      "id": "DashBoard",
+      "id": "Dashboard",
       "isDefault": false
     }
   ],
