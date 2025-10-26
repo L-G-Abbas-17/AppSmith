@@ -1,4 +1,5 @@
 {
+  "allowClustering": false,
   "allowZoom": true,
   "animateLoading": true,
   "borderRadius": "1.5rem",
@@ -7,7 +8,7 @@
   "defaultMarkers": "[\n  {\n    \"lat\": 8.715017999999999,\n    \"long\": 77.765628,\n    \"title\": \"Tirunelveli\"\n  }\n]",
   "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [],
-  "enableMapTypeControl": false,
+  "enableMapTypeControl": true,
   "enablePickLocation": true,
   "enableSearch": true,
   "flexVerticalAlignment": "start",

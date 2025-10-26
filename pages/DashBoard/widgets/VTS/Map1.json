@@ -19,9 +19,9 @@
     }
   ],
   "enableCreateMarker": true,
-  "enableMapTypeControl": false,
+  "enableMapTypeControl": true,
   "enablePickLocation": true,
-  "enableSearch": true,
+  "enableSearch": false,
   "flexVerticalAlignment": "start",
   "isClickedMarkerCentered": true,
   "isDisabled": false,

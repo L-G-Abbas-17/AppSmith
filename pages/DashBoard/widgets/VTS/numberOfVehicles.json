@@ -13,6 +13,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -42,7 +45,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 26,
   "shouldTruncate": false,
-  "text": "\nNumber Of Vehicles\n\n0\n\n",
+  "text": "\nNumber Of Vehicles\n\n{{dashboard.data.createdashboardDto.no_of_vehicles}}\n\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 4,
