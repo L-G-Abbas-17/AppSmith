@@ -21,7 +21,7 @@
       "httpMethod": "DELETE",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/addvehicle/{{vehicleTableDeletePage.selectedRow.vehicle_id}}",
+      "path": "/addvehicle/{{Vehicles_table.selectedRow.vehicle_id}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true
