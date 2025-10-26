@@ -4,13 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 48,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-  "defaultMarkers": [
-    {
-      "lat": 40.7128,
-      "long": -74.006,
-      "title": "New York"
-    }
-  ],
+  "defaultMarkers": "[\n  {\n    \"lat\": 40.7128,\n    \"long\": -74.006,\n    \"title\": \"New York\"\n  }\n]",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
@@ -19,7 +13,11 @@
       "key": "boxShadow"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onCreateMarker"
+    }
+  ],
   "enableCreateMarker": true,
   "enableMapTypeControl": false,
   "enablePickLocation": true,
@@ -32,8 +30,9 @@
   "key": "xzl40ohixd",
   "leftColumn": 0,
   "mapCenter": {
-    "lat": 40.7128,
-    "long": -74.006
+    "lat": 8.702578899999999,
+    "long": 77.72789809999999,
+    "title": "Vasanth Nagar, Tirunelveli, Tamil Nadu 627002, India"
   },
   "minWidth": 450,
   "mobileBottomRow": 43,
@@ -41,6 +40,7 @@
   "mobileRightColumn": 26,
   "mobileTopRow": 3,
   "needsErrorInfo": false,
+  "onCreateMarker": "{{mapinfo.run()}}",
   "parentColumnSpace": 6.53125,
   "parentId": "6ul23ub6h6",
   "parentRowSpace": 10,
