@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 48,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-  "defaultMarkers": "{{\n  mapinfo.data && Array.isArray(mapinfo.data) \n    ? mapinfo.data.map(item => ({\n        lat: item.lat,\n        lng: item.long,\n        title: item.title\n      }))\n    : []\n}}\n\n",
+  "defaultMarkers": "{{\n  mapinfo.data\n}}\n\n",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
