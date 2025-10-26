@@ -1,7 +1,7 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "bottomRow": 59,
+  "bottomRow": 61,
   "defaultValue": "100",
   "dynamicBindingPathList": [
     {
@@ -27,8 +27,8 @@
   "mobileRightColumn": 34,
   "mobileTopRow": 43,
   "needsErrorInfo": false,
-  "originalBottomRow": 59,
-  "originalTopRow": 54,
+  "originalBottomRow": 60,
+  "originalTopRow": 55,
   "parentColumnSpace": 6.53125,
   "parentId": "y67wffs8s3",
   "parentRowSpace": 10,
@@ -41,7 +41,7 @@
   "sliderSize": "m",
   "step": 1,
   "tooltipAlwaysOn": false,
-  "topRow": 54,
+  "topRow": 56,
   "type": "NUMBER_SLIDER_WIDGET",
   "version": 1,
   "widgetId": "r1sfg0ig6z",

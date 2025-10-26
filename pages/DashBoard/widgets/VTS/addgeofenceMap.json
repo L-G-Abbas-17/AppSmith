@@ -1,24 +1,12 @@
 {
   "allowZoom": true,
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderRadius": "1.5rem",
   "bottomRow": 41,
-  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-  "defaultMarkers": [
-    {
-      "lat": 40.7128,
-      "long": -74.006,
-      "title": "New York"
-    }
-  ],
-  "dynamicBindingPathList": [
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "boxShadow"
-    }
-  ],
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+  "defaultMarkers": "[\n  {\n    \"lat\": 8.715017999999999,\n    \"long\": 77.765628,\n    \"title\": \"Tirunelveli\"\n  }\n]",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
   "enableMapTypeControl": false,
   "enablePickLocation": true,
   "enableSearch": true,
@@ -50,5 +38,5 @@
   "version": 1,
   "widgetId": "zkhox1un02",
   "widgetName": "addgeofenceMap",
-  "zoomLevel": 50
+  "zoomLevel": 75
 }
