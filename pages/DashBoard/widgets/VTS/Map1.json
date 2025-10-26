@@ -4,13 +4,16 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 48,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-  "defaultMarkers": "[\n  {\n    \"lat\": 40.7128,\n    \"long\": -74.006,\n    \"title\": \"New York\"\n  }\n]",
+  "defaultMarkers": "{{mapinfo.data}}",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "defaultMarkers"
     }
   ],
   "dynamicTriggerPathList": [

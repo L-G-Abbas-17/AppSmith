@@ -205,7 +205,7 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 62,
+  "rightColumn": 63,
   "searchKey": "",
   "tableData": "{{vehiclestatus.data}}",
   "textSize": "0.875rem",

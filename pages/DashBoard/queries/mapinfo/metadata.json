@@ -37,7 +37,7 @@
     "dynamicBindingPathList": [],
     "name": "mapinfo",
     "pageId": "DashBoard",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }

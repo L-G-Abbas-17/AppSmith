@@ -1,15 +1,12 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 32,
+  "bottomRow": 26,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#93c5fd",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
-    {
-      "key": "buttonColor"
-    },
     {
       "key": "borderRadius"
     }
@@ -19,19 +16,21 @@
       "key": "onClick"
     }
   ],
+  "iconAlign": "left",
+  "iconName": "log-in",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "k78wiy60lh",
-  "leftColumn": 44,
+  "leftColumn": 9,
   "minWidth": 120,
   "mobileBottomRow": 32,
   "mobileLeftColumn": 35,
   "mobileRightColumn": 51,
   "mobileTopRow": 28,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('DashBoard', {}, 'NEW_WINDOW');}}",
+  "onClick": "{{Loginbtnscript.LoginonClick();}}",
   "parentColumnSpace": 11.75,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -40,9 +39,9 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 51,
+  "rightColumn": 54,
   "text": "Log In",
-  "topRow": 28,
+  "topRow": 22,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "12bylghcox",
