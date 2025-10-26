@@ -528,7 +528,7 @@
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
-  "isVisible": "{{ \n  appsmith.store.isLoggedIn === true && new Date().getTime() <= appsmith.store.loginExpiry \n}}\n\n\n",
+  "isVisible": "{{ \n  appsmith.store.isLoggedIn === true \n}}\n\n\n",
   "key": "1jvvxjdwt0",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
