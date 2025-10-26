@@ -19,6 +19,8 @@
       "key": "boxShadow"
     }
   ],
+  "dynamicTriggerPathList": [],
+  "enableCreateMarker": true,
   "enableMapTypeControl": false,
   "enablePickLocation": true,
   "enableSearch": true,
