@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 61,
   "shouldTruncate": false,
-  "text": "Longitude :\t    {{addgeofenceMap.center.long}}",
+  "text": "Longitude :\t         {{addgeofenceMap.center.long}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 41,
