@@ -7,7 +7,7 @@ export default {
 			storeValue("loginExpiry", expiryTime);
 			navigateTo('Dashboard');
 		} else {
-			showAlert("Invalid credentials", "error");
+			showAlert("Invalid User Name or Password", "error");
 		}
 
 

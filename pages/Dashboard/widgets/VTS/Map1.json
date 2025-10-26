@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 48,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-  "defaultMarkers": "{{mapinfo.data}}",
+  "defaultMarkers": "{{\n  mapinfo.data && Array.isArray(mapinfo.data) \n    ? mapinfo.data.map(item => ({\n        lat: item.lat,\n        lng: item.long,\n        title: item.title\n      }))\n    : []\n}}\n\n",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
@@ -16,9 +16,13 @@
       "key": "defaultMarkers"
     }
   ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onCreateMarker"
+    },
+    {
+      "key": "onMarkerClick"
     }
   ],
   "enableCreateMarker": true,
@@ -44,6 +48,7 @@
   "mobileTopRow": 3,
   "needsErrorInfo": false,
   "onCreateMarker": "{{mapinfo.run()}}",
+  "onMarkerClick": "",
   "parentColumnSpace": 6.53125,
   "parentId": "6ul23ub6h6",
   "parentRowSpace": 10,
