@@ -513,14 +513,22 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": "{{ appsmith.URL.queryParams.token === \"secret123\" }}\n",
   "key": "1jvvxjdwt0",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
