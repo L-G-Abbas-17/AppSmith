@@ -504,6 +504,51 @@
       "version": 1,
       "widgetId": "9altcw85q4",
       "widgetName": "Canvas11"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 710,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "3h6cktfr1n",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 760,
+      "minWidth": 450,
+      "mobileBottomRow": 761,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1093,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "t09ney1vqh",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1093,
+      "tabId": "tabr9mfpu2hq1",
+      "tabName": "Geofence List",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "pbt01h2o2q",
+      "widgetName": "Canvas12"
     }
   ],
   "defaultTab": "Dashboard",
@@ -584,7 +629,7 @@
     },
     "tabj4xf75oky1": {
       "id": "tabj4xf75oky1",
-      "index": 9,
+      "index": 10,
       "isDuplicateLabel": false,
       "isVisible": true,
       "label": "Speeding",
@@ -592,7 +637,8 @@
     },
     "tabml724h3c0a": {
       "id": "tabml724h3c0a",
-      "index": 10,
+      "index": 11,
+      "isDuplicateLabel": false,
       "isVisible": true,
       "label": "Trips",
       "widgetId": "9altcw85q4"
@@ -604,6 +650,14 @@
       "isVisible": true,
       "label": "Dashboard",
       "widgetId": "ma6608lqmq"
+    },
+    "tabr9mfpu2hq1": {
+      "id": "tabr9mfpu2hq1",
+      "index": 8,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "Geofence List",
+      "widgetId": "pbt01h2o2q"
     },
     "tabtieu3j1hv0": {
       "id": "tabtieu3j1hv0",
@@ -623,7 +677,7 @@
     },
     "tabycfk9xdoss": {
       "id": "tabycfk9xdoss",
-      "index": 8,
+      "index": 9,
       "isDuplicateLabel": false,
       "isVisible": true,
       "label": "Stop",
