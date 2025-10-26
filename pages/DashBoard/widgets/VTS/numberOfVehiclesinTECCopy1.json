@@ -45,7 +45,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 26,
   "shouldTruncate": false,
-  "text": "\nNumber Of Vehicles in Junction\n\n{{dashboard.data.createdashboardDto.no_of_vehicles_in_Junction}}\n\n",
+  "text": "\nNumber Of Vehicles in Junction\n\n{{dashboard.data.no_of_vehicles_in_Junction}}\n\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 18,
