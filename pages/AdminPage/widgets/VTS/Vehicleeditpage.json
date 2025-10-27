@@ -403,7 +403,7 @@
       "id": "EditActions1",
       "index": 10,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": false,
       "isDerived": true,
       "isDisabled": false,
       "isDiscardDisabled": "{{Vehicleeditpage.processedTableData.map((currentRow, currentIndex) => ( !Vehicleeditpage.updatedRowIndices.includes(currentIndex)))}}",
