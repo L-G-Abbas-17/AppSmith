@@ -1,26 +1,30 @@
 export default {
-  intervalId: null,
+	intervalId: null,
 
-  startAutoRefresh() {
-    this.stopAutoRefresh();
-    this.intervalId = setInterval(() => {
-      AllVehicleList.run();
+	startAutoRefresh() {
+		this.stopAutoRefresh();
+		this.intervalId = setInterval(() => {
+			AllVehicleList.run();
 			dashboard.run();
 			geofencelist.run();
 			listUsers.run();
 			mapinfo.run();
-    }, 5000);
-  },
+			speeding.run();
+			stop.run();
+			trip.run();
+			vehiclestatus.run();
+		}, 5000);
+	},
 
-  stopAutoRefresh() {
-    if (this.intervalId) clearInterval(this.intervalId);
-    this.intervalId = null;
-  },
+	stopAutoRefresh() {
+		if (this.intervalId) clearInterval(this.intervalId);
+		this.intervalId = null;
+	},
 
-  // 👇 this part auto runs when JS object loads
-  init() {
-    this.startAutoRefresh();
-  }
+	// 👇 this part auto runs when JS object loads
+	init() {
+		this.startAutoRefresh();
+	}
 };
 
 // Immediately call init on load
