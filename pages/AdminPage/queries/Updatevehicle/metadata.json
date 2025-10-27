@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{{ \n{\n\t\"VIN\":Vehicleeditpage.selectedRow.VIN,\n\t\"VehicleName\":Vehicleeditpage.selectedRow.VehicleName,\n\t\"modelName\":Vehicleeditpage.selectedRow.modelName,\n\t\"modelYear\":Vehicleeditpage.selectedRow.modelYear,\n\t\"vehicleType\":Vehicleeditpage.selectedRow.vehicleType,\n\t\"DeviceSerialNumber\":Vehicleeditpage.selectedRow.DeviceSerialNumber\n}\n}}",
+      "body": "{{ \n{\n\t\"VIN\":Vehicles_table.selectedRow.VIN,\n\t\"VehicleName\":Vehicles_table.selectedRow.VehicleName,\n\t\"modelName\":Vehicles_table.selectedRow.modelName,\n\t\"modelYear\":Vehicles_table.selectedRow.modelYear,\n\t\"vehicleType\":Vehicles_table.selectedRow.vehicleType,\n\t\"DeviceSerialNumber\":Vehicles_table.selectedRow.DeviceSerialNumber\n}\n}}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -21,7 +21,7 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/updatevehicle/{{Vehicleeditpage.selectedRow.DeviceSerialNumber}}",
+      "path": "/updatevehicle/{{Vehicles_table.selectedRow.DeviceSerialNumber}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true

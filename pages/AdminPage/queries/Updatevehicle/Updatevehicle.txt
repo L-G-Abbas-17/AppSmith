@@ -1,10 +1,10 @@
 {{ 
 {
-	"VIN":Vehicleeditpage.selectedRow.VIN,
-	"VehicleName":Vehicleeditpage.selectedRow.VehicleName,
-	"modelName":Vehicleeditpage.selectedRow.modelName,
-	"modelYear":Vehicleeditpage.selectedRow.modelYear,
-	"vehicleType":Vehicleeditpage.selectedRow.vehicleType,
-	"DeviceSerialNumber":Vehicleeditpage.selectedRow.DeviceSerialNumber
+	"VIN":Vehicles_table.selectedRow.VIN,
+	"VehicleName":Vehicles_table.selectedRow.VehicleName,
+	"modelName":Vehicles_table.selectedRow.modelName,
+	"modelYear":Vehicles_table.selectedRow.modelYear,
+	"vehicleType":Vehicles_table.selectedRow.vehicleType,
+	"DeviceSerialNumber":Vehicles_table.selectedRow.DeviceSerialNumber
 }
 }}
