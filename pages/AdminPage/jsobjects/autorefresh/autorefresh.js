@@ -4,16 +4,16 @@ export default {
 	startAutoRefresh() {
 		this.stopAutoRefresh();
 		this.intervalId = setInterval(() => {
-			AllVehicleList.run();
-			dashboard.run();
-			geofencelist.run();
-			listUsers.run();
+			// AllVehicleList.run();
+			// dashboard.run();
+			// geofencelist.run();
+			// listUsers.run();
 			mapinfo.run();
-			speeding.run();
-			stop.run();
-			trip.run();
-			vehiclestatus.run();
-		}, 5000);
+			// speeding.run();
+			// stop.run();
+			// trip.run();
+			// vehiclestatus.run();
+		}, 3000);
 	},
 
 	stopAutoRefresh() {
