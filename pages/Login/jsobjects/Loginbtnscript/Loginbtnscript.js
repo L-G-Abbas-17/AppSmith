@@ -1,6 +1,8 @@
 export default {
 	LoginonClick() {
-		const users = All_user_list.data; // from API
+		All_user_list.run();
+		const users = All_user_list.data;
+		console.log(All_user_list.data)// from API
 		const username = Email.text;
 		const password = Password.text;
 
