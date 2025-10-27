@@ -504,6 +504,96 @@
       "version": 1,
       "widgetId": "pbt01h2o2q",
       "widgetName": "Canvas12"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 710,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "g96htsnile",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 760,
+      "minWidth": 450,
+      "mobileBottomRow": 761,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1093,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "t09ney1vqh",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1093,
+      "tabId": "tab9xl1b7j5w9",
+      "tabName": "Add Users",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "ju1l0tvj7y",
+      "widgetName": "Canvas13"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 710,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "g96htsnile",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 760,
+      "minWidth": 450,
+      "mobileBottomRow": 761,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1093,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "t09ney1vqh",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1093,
+      "tabId": "tabctpenugggm",
+      "tabName": "List Users",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "vvz20zkigy",
+      "widgetName": "Canvas14"
     }
   ],
   "defaultTab": "Dashboard",
@@ -566,6 +656,14 @@
       "positioning": "vertical",
       "widgetId": "ughhm39pqv"
     },
+    "tab9xl1b7j5w9": {
+      "id": "tab9xl1b7j5w9",
+      "index": 8,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "Add Users",
+      "widgetId": "ju1l0tvj7y"
+    },
     "taba7yaq6g2zp": {
       "id": "taba7yaq6g2zp",
       "index": 3,
@@ -582,9 +680,17 @@
       "label": "List Vehicles",
       "widgetId": "el7b8xxnlb"
     },
+    "tabctpenugggm": {
+      "id": "tabctpenugggm",
+      "index": 9,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "List Users",
+      "widgetId": "vvz20zkigy"
+    },
     "tabj4xf75oky1": {
       "id": "tabj4xf75oky1",
-      "index": 9,
+      "index": 11,
       "isDuplicateLabel": false,
       "isVisible": true,
       "label": "Speeding",
@@ -592,7 +698,7 @@
     },
     "tabml724h3c0a": {
       "id": "tabml724h3c0a",
-      "index": 10,
+      "index": 12,
       "isDuplicateLabel": false,
       "isVisible": true,
       "label": "Trips",
@@ -632,7 +738,7 @@
     },
     "tabycfk9xdoss": {
       "id": "tabycfk9xdoss",
-      "index": 8,
+      "index": 10,
       "isDuplicateLabel": false,
       "isVisible": true,
       "label": "Stop",
