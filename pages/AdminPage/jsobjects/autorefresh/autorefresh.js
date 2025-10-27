@@ -7,6 +7,8 @@ export default {
       AllVehicleList.run();
 			dashboard.run();
 			geofencelist.run();
+			listUsers.run();
+			mapinfo.run();
     }, 5000);
   },
 
