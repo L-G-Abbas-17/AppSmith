@@ -1,0 +1,7 @@
+{{ 
+{
+	"userName":addUserName.text,
+	"password":addPassword.text,
+	"role":selectRole.selectedOptionValue
+}
+}}

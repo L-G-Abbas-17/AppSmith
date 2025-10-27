@@ -1,5 +1,6 @@
 export default {
 	LoginonClick() {
+		con
 		if(Email.text === "Nova" && Password.text === "Hash8labs$$25") {
 			// set login true + expiry timestamp
 			storeValue("isLoggedIn", true);
