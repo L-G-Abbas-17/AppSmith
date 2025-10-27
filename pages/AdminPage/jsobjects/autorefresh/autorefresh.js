@@ -6,7 +6,7 @@ export default {
     this.intervalId = setInterval(() => {
       AllVehicleList.run();
 			dashboard.run();
-			geofencelist.run():
+			geofencelist.run();
     }, 5000);
   },
 
