@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "68cfb469f9328044162b3f96_70c72e83-dfc0-4c36-bf9d-58f79f95baf5",
+  "id": "AdminPage_autorefreshtable",
+  "unpublishedCollection": {
+    "name": "autorefreshtable",
+    "pageId": "AdminPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "intervalId",
+        "value": "null"
+      }
+    ]
+  }
+}

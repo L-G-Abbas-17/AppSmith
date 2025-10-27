@@ -26,12 +26,12 @@
   "icon": "smartphone",
   "pages": [
     {
-      "id": "Login",
-      "isDefault": true
-    },
-    {
       "id": "AdminPage",
       "isDefault": false
+    },
+    {
+      "id": "Login",
+      "isDefault": true
     },
     {
       "id": "UserPage",

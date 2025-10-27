@@ -47,6 +47,6 @@
     "name": "Add_Geofence",
     "pageId": "AdminPage",
     "runBehaviour": "MANUAL",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

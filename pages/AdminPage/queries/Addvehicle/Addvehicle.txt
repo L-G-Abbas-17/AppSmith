@@ -5,7 +5,7 @@
 	"carCompany":carcompany.text,
 	"modelName":modelname.text,
 	"modelYear":modelyear.text,
-	"vehicleType":vehicletype.text,
+	"vehicleType":SelectVehicleType.selectedOptionValue,
 	"DeviceSerialNumber":deviceserialnumber.text
 }
 }}

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68cfb469f9328044162b3f96_bbe91dc8-dd37-4909-809c-a7fb702574c8",
+  "id": "AdminPage_createmarker",
+  "unpublishedCollection": {
+    "name": "createmarker",
+    "pageId": "AdminPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
