@@ -30,7 +30,11 @@
       "isDefault": true
     },
     {
-      "id": "Dashboard",
+      "id": "AdminPage",
+      "isDefault": false
+    },
+    {
+      "id": "UserPage",
       "isDefault": false
     }
   ],

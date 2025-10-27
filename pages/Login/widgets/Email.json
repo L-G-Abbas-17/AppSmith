@@ -41,7 +41,7 @@
   "parentColumnSpace": 11.75,
   "parentId": "0",
   "parentRowSpace": 10,
-  "placeholderText": "Admin User Name",
+  "placeholderText": "User Name",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
