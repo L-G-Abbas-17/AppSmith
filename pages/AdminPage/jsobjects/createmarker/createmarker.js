@@ -1,22 +1,14 @@
 export default {
-	addgeofenceMaponCreateMarker () {
-		//	write code here
-
+	addgeofenceMaponCreateMarker() {
+		// Create a new marker using correct map reference
 		const newMarker = {
 			lat: addgeofenceMap.newMarkerLat,
-			long: Map1.newMarkerLng,
+			long: addgeofenceMap.newMarkerLng,
 			title: "New Marker",
 			description: `Lat: ${addgeofenceMap.newMarkerLat}, Lng: ${addgeofenceMap.newMarkerLng}`
 		};
 
-		// Append to existing markers list
-		const updatedMarkers = [
-			...(appsmith.store.markers || []),
-			newMarker
-		];
-
-		// Save to store
-		storeValue("markers", updatedMarkers);
-
+		// Replace old marker with only new one
+		storeValue("markers", [newMarker]);
 	}
 }

@@ -38,6 +38,6 @@
     "name": "listUsers",
     "pageId": "AdminPage",
     "runBehaviour": "AUTOMATIC",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

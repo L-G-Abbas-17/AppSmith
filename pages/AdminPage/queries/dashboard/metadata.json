@@ -38,6 +38,6 @@
     "name": "dashboard",
     "pageId": "AdminPage",
     "runBehaviour": "AUTOMATIC",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }
