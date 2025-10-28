@@ -2,7 +2,7 @@ export default {
 	LoginonClick() {
 		All_user_list.run();
 		const users = All_user_list.data;
-		console.log(All_user_list.data)// from API
+		console.log(All_user_list.data); // from API
 		const username = Email.text;
 		const password = Password.text;
 
@@ -19,14 +19,16 @@ export default {
 		// login success
 		storeValue("isLoggedIn", true);
 		storeValue("loggedUser", foundUser.userName);
+		storeValue("role", foundUser.role);
+		storeValue("loginTime", Date.now()); // 🕒 store login time
 
 		// navigate based on role
 		if (foundUser.role === "admin") {
 			showAlert(`Welcome Admin ${foundUser.userName}!`, "success");
-			navigateTo('AdminPage');
+			navigateTo("AdminPage");
 		} else {
 			showAlert(`Welcome ${foundUser.userName}!`, "success");
-			navigateTo('UserPage');
+			navigateTo("UserPage");
 		}
 	}
-}
+};

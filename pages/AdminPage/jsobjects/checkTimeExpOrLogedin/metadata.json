@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68cfb469f9328044162b3f96_cffc4024-85cd-4675-864d-b4b35b7d6354",
+  "id": "AdminPage_checkTimeExpOrLogedin",
+  "unpublishedCollection": {
+    "name": "checkTimeExpOrLogedin",
+    "pageId": "AdminPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
