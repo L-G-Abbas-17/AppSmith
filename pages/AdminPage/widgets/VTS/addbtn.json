@@ -28,7 +28,7 @@
   "mobileRightColumn": 56,
   "mobileTopRow": 40,
   "needsErrorInfo": false,
-  "onClick": "{{Addvehicle.run();\nAllVehicleList.run()}}",
+  "onClick": "{{Addvehicle.run().then(() => {\n  AllVehicleList.run();\n  showAlert('Successfully Added Vehicle Info', 'success');\n}).catch(() => {\n  showAlert('Can not Added  Vehicle Info', 'error');\n});}}",
   "parentColumnSpace": 6.53125,
   "parentId": "abjnoai6ql",
   "parentRowSpace": 10,

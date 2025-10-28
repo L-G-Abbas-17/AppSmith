@@ -28,7 +28,7 @@
   "mobileRightColumn": 22,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{addUser.run();\nlistUsers.run()}}",
+  "onClick": "{{addUser.run().then(() => {\n  showAlert('Successfully Added New User', 'success');\n}).catch(() => {\n  showAlert('Can not Added New User', 'error');\n});}}",
   "parentColumnSpace": 6.53125,
   "parentId": "ju1l0tvj7y",
   "parentRowSpace": 10,

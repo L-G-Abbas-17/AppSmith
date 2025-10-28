@@ -28,7 +28,7 @@
   "mobileRightColumn": 59,
   "mobileTopRow": 64,
   "needsErrorInfo": false,
-  "onClick": "{{Add_Geofence.run()}}",
+  "onClick": "{{Add_Geofence.run().then(() => {\n  showAlert('Successfully Added New Geofence', 'success');\n}).catch(() => {\n  showAlert('Can not Added New Geofence', 'error');\n});}}",
   "originalBottomRow": 68,
   "originalTopRow": 64,
   "parentColumnSpace": 6.53125,

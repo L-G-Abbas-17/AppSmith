@@ -28,7 +28,7 @@
   "mobileRightColumn": 61,
   "mobileTopRow": 63,
   "needsErrorInfo": false,
-  "onClick": "{{Updatevehicle.run();\nAllVehicleList.run()}}",
+  "onClick": "{{Updatevehicle.run().then(() => {\n  AllVehicleList.run();\n  showAlert('Successfully Updated Vehicle Information', 'success');\n}).catch(() => {\n  showAlert('Can not Updated Vehicle Info', 'error');\n});}}",
   "parentColumnSpace": 6.53125,
   "parentId": "el7b8xxnlb",
   "parentRowSpace": 10,

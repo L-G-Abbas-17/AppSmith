@@ -28,7 +28,7 @@
   "mobileRightColumn": 61,
   "mobileTopRow": 63,
   "needsErrorInfo": false,
-  "onClick": "{{deletevehicle.run().then(() => {\n  AllVehicleList.run();\n});}}",
+  "onClick": "{{deletevehicle.run().then(() => {\n  AllVehicleList.run();\n  showAlert('Successfully Deleted Vehicle Info', 'success');\n}).catch(() => {\n  showAlert('Can Not Deleted Vehicle Info', 'error');\n});}}",
   "parentColumnSpace": 6.53125,
   "parentId": "el7b8xxnlb",
   "parentRowSpace": 10,
