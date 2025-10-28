@@ -6,8 +6,8 @@ export default {
 		this.intervalId = setInterval(() => {
 			vehicleinfo.run();
 			selectVehicle.run();
-			
-		}, 3000);
+
+		}, 9000);
 	},
 
 	stopAutoRefresh() {
