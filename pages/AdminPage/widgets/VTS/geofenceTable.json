@@ -38,7 +38,7 @@
     "longitude",
     "radius"
   ],
-  "columnUpdatedAt": 1761583340620,
+  "columnUpdatedAt": 1761673960319,
   "columnWidthMap": {},
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -283,6 +283,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "searchKey": "",
+  "showInlineEditingOptionDropdown": true,
   "tableData": "{{geofencelist.data}}",
   "textSize": "0.875rem",
   "topRow": 1,
