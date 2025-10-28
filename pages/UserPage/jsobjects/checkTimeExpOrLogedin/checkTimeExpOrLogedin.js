@@ -20,7 +20,7 @@ export default {
 			removeValue("loggedUser");
 			removeValue("loginTime");
 			removeValue("role");
-			navigateTo("LoginPage");
+			navigateTo("Login");
 		}
 	}
 
