@@ -46,7 +46,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "{{SaveSomeinfo.savesomeinfo()}}",
+  "text": "{{ vehicleinfo.data[0]?.speed != null ? vehicleinfo.data[0].speed : \"Speed Not Found\" }}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 63,
