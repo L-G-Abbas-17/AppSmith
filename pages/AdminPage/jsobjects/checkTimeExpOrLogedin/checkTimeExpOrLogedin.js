@@ -14,7 +14,7 @@ export default {
 		const now = Date.now();
 		const hours = (now - loginTime) / (1000 * 60 * 60);
 		
-		if (hours > 0.033) {
+		if (hours > 1) {
 			showAlert("⏰ Session expired. Please log in again.", "warning");
 			removeValue("isLoggedIn");
 			removeValue("loggedUser");
