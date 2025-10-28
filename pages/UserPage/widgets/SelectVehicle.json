@@ -19,13 +19,13 @@
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
-      "key": "sourceData"
-    },
-    {
       "key": "optionLabel"
     },
     {
       "key": "optionValue"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -59,7 +59,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 61,
   "serverSideFiltering": false,
-  "sourceData": "{{vehicleinfo.data}}",
+  "sourceData": "{{selectVehicle.data}}",
   "topRow": 1,
   "type": "SELECT_WIDGET",
   "version": 1,

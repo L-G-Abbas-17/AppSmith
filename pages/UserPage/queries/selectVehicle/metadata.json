@@ -37,7 +37,7 @@
     "dynamicBindingPathList": [],
     "name": "selectVehicle",
     "pageId": "UserPage",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }
