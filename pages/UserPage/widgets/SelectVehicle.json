@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 5,
   "boxShadow": "none",
-  "defaultOptionValue": "GREEN",
+  "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -49,8 +49,8 @@
   "mobileRightColumn": 30,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "optionLabel": "name",
-  "optionValue": "code",
+  "optionLabel": "VehicleName",
+  "optionValue": "VehicleName",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -59,7 +59,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 61,
   "serverSideFiltering": false,
-  "sourceData": "{{checkTimeExpOrLogedin.searchbtnonClick()}}",
+  "sourceData": "{{vehicleinfo.data}}",
   "topRow": 1,
   "type": "SELECT_WIDGET",
   "version": 1,

@@ -4,7 +4,7 @@
   "borderColor": "#231f20",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 69,
+  "bottomRow": 67,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -36,8 +36,8 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 54,
   "needsErrorInfo": false,
-  "originalBottomRow": 67,
-  "originalTopRow": 63,
+  "originalBottomRow": 69,
+  "originalTopRow": 65,
   "overflow": "NONE",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
@@ -49,7 +49,7 @@
   "text": "{{ vehicleinfo.data[0]?.speed != null ? vehicleinfo.data[0].speed : \"Speed Not Found\" }}\n\n   \n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 65,
+  "topRow": 63,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
