@@ -566,9 +566,16 @@
   "dynamicPropertyPathList": [
     {
       "key": "isVisible"
+    },
+    {
+      "key": "onTabSelected"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTabSelected"
+    }
+  ],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
@@ -583,6 +590,7 @@
   "mobileRightColumn": 44,
   "mobileTopRow": 9,
   "needsErrorInfo": false,
+  "onTabSelected": "{{ AllVehicleList.run();\n\t\t\t dashboard.run();\n\t\t\tgeofencelist.run();\n\t\t\tlistUsers.run();\n\t\t\tmapinfo.run();\n\t\t\tspeeding.run();\n\t\t\tstop.run();\n\t\t\ttrip.run();\n\t\t\tvehiclestatus.run();}}",
   "parentColumnSpace": 17.078125,
   "parentId": "0",
   "parentRowSpace": 10,

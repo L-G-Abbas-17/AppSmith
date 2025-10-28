@@ -28,7 +28,7 @@
   "mobileRightColumn": 61,
   "mobileTopRow": 63,
   "needsErrorInfo": false,
-  "onClick": "{{deletevehicle.run()}}",
+  "onClick": "{{deletevehicle.run();\nAllVehicleList.run()}}",
   "parentColumnSpace": 6.53125,
   "parentId": "el7b8xxnlb",
   "parentRowSpace": 10,

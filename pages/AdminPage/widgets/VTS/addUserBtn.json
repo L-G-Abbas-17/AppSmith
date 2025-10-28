@@ -28,7 +28,7 @@
   "mobileRightColumn": 22,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{addUser.run()}}",
+  "onClick": "{{addUser.run();\nlistUsers.run()}}",
   "parentColumnSpace": 6.53125,
   "parentId": "ju1l0tvj7y",
   "parentRowSpace": 10,

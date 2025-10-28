@@ -28,7 +28,7 @@
   "mobileRightColumn": 44,
   "mobileTopRow": 64,
   "needsErrorInfo": false,
-  "onClick": "{{updateUser.run()}}",
+  "onClick": "{{updateUser.run();\nlistUsers.run()}}",
   "parentColumnSpace": 6.53125,
   "parentId": "vvz20zkigy",
   "parentRowSpace": 10,

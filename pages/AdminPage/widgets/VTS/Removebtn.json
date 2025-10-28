@@ -28,7 +28,7 @@
   "mobileRightColumn": 61,
   "mobileTopRow": 64,
   "needsErrorInfo": false,
-  "onClick": "{{removeGeofence.run()}}",
+  "onClick": "{{removeGeofence.run();\ngeofencelist.run()}}",
   "parentColumnSpace": 6.53125,
   "parentId": "pbt01h2o2q",
   "parentRowSpace": 10,
