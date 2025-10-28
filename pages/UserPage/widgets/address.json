@@ -4,7 +4,7 @@
   "borderColor": "#231f20",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 61,
+  "bottomRow": 71,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -49,7 +49,7 @@
   "text": "{{ vehicleinfo.data[0]?.Address && vehicleinfo.data[0].Address.trim() !== \"\" \n    ? vehicleinfo.data[0].Address \n    : \"Address Not Found\" }}\n\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 57,
+  "topRow": 60,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

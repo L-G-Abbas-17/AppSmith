@@ -4,7 +4,7 @@
   "borderColor": "#231f20",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 67,
+  "bottomRow": 82,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -49,7 +49,7 @@
   "text": "{{ vehicleinfo.data[0]?.speed != null ? vehicleinfo.data[0].speed : \"Speed Not Found\" }}\n\n   \n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 63,
+  "topRow": 73,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
