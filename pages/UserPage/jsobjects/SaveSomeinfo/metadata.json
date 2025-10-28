@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68cfb469f9328044162b3f96_f69190cb-a044-49af-8af6-ba531aca2a00",
+  "id": "UserPage_SaveSomeinfo",
+  "unpublishedCollection": {
+    "name": "SaveSomeinfo",
+    "pageId": "UserPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
