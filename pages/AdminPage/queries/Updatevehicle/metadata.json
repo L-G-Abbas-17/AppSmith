@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{{ \n{\n\t\"VIN\":Vehicles_table.selectedRow.VIN,\n\t\"VehicleName\":Vehicles_table.selectedRow.VehicleName,\n\t\"modelName\":Vehicles_table.selectedRow.modelName,\n\t\"modelYear\":Vehicles_table.selectedRow.modelYear,\n\t\"vehicleType\":Vehicles_table.selectedRow.vehicleType,\n\t\"DeviceSerialNumber\":Vehicles_table.selectedRow.DeviceSerialNumber\n}\n}}",
+      "body": "{{ \n{\n\t\"VIN\":Vehicles_table.selectedRow.VIN,\n\t\"VehicleName\":Vehicles_table.selectedRow.VehicleName,\n\t\"modelName\":Vehicles_table.selectedRow.modelName,\n\t\"modelYear\":Vehicles_table.selectedRow.modelYear,\n\t\"vehicleType\":Vehicles_table.selectedRow.vehicleType,\n\t\"DeviceSerialNumber\":Vehicles_table.selectedRow.DeviceSerialNumber,\n\t\"LastStop\":Vehicles_table.selectedRow.LastStop\n}\n}}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

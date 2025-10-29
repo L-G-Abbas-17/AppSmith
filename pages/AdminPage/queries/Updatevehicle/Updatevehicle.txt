@@ -5,6 +5,7 @@
 	"modelName":Vehicles_table.selectedRow.modelName,
 	"modelYear":Vehicles_table.selectedRow.modelYear,
 	"vehicleType":Vehicles_table.selectedRow.vehicleType,
-	"DeviceSerialNumber":Vehicles_table.selectedRow.DeviceSerialNumber
+	"DeviceSerialNumber":Vehicles_table.selectedRow.DeviceSerialNumber,
+	"LastStop":Vehicles_table.selectedRow.LastStop
 }
 }}

@@ -175,6 +175,9 @@
     },
     {
       "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    },
+    {
+      "key": "primaryColumns.LastStop.selectOptions"
     }
   ],
   "dynamicPropertyPathList": [
@@ -565,7 +568,7 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
-      "columnType": "text",
+      "columnType": "select",
       "computedValue": "{{(() => { const tableData = Vehicles_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"LastStop\"])) : LastStop })()}}",
       "currencyCode": "USD",
       "decimals": 0,
@@ -575,17 +578,18 @@
       "horizontalAlignment": "LEFT",
       "id": "LastStop",
       "index": 23,
-      "isCellEditable": false,
+      "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": false,
+      "isEditable": true,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "LastStop",
       "notation": "standard",
       "originalId": "LastStop",
+      "selectOptions": "{{(() => { const tableData = Vehicles_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (geofencelist.data[0].name)) : geofencelist.data[0].name })()}}",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",

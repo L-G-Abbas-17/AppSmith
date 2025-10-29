@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "autoPlay": false,
-  "bottomRow": 73,
+  "bottomRow": 74,
   "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [],
   "isLoading": false,
@@ -22,7 +22,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 62,
-  "topRow": 69,
+  "topRow": 70,
   "type": "AUDIO_WIDGET",
   "url": "https://assets.appsmith.com/widgets/birds_chirping.mp3",
   "version": 1,
