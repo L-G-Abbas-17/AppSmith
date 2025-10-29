@@ -4,7 +4,7 @@
   "borderColor": "#231f20",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 62,
+  "bottomRow": 73,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -36,8 +36,8 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 54,
   "needsErrorInfo": false,
-  "originalBottomRow": 62,
-  "originalTopRow": 57,
+  "originalBottomRow": 74,
+  "originalTopRow": 69,
   "overflow": "NONE",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
@@ -49,7 +49,7 @@
   "text": "{{ vehicleinfo.data[0]?.Address && vehicleinfo.data[0].Address.trim() !== \"\" \n    ? vehicleinfo.data[0].Address \n    : \"Address Not Found\" }}\n\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 57,
+  "topRow": 68,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

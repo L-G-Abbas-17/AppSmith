@@ -175,6 +175,9 @@
     },
     {
       "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    },
+    {
+      "key": "primaryColumns.LastStop.selectOptions"
     }
   ],
   "dynamicPropertyPathList": [
@@ -581,17 +584,20 @@
       "isDisabled": false,
       "isDiscardVisible": true,
       "isEditable": true,
+      "isFilterable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "LastStop",
       "notation": "standard",
       "originalId": "LastStop",
-      "selectOptions": "const formattedList = geofenceList.map(item => ({\n  label: item.name,\n  value: item.id\n}))\n",
+      "selectOptions": "{{(() => { const tableData = Vehicles_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( geofencelist.data.map(g => ({ label: g.name, value: g.name })) )) :  geofencelist.data.map(g => ({ label: g.name, value: g.name }))  })()}}",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
-      "validation": {},
+      "validation": {
+        "isColumnEditableCellRequired": false
+      },
       "verticalAlignment": "CENTER",
       "width": 150
     },

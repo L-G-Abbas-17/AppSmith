@@ -4,7 +4,7 @@
   "borderColor": "#231f20",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 73,
+  "bottomRow": 60,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -36,8 +36,8 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 54,
   "needsErrorInfo": false,
-  "originalBottomRow": 68,
-  "originalTopRow": 64,
+  "originalBottomRow": 60,
+  "originalTopRow": 56,
   "overflow": "NONE",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
@@ -49,7 +49,7 @@
   "text": "{{vehicleinfo.data[0]?.GeoFenceStatus? vehicleinfo.data[0]?.GeoFenceStatus:\"Geofence Status Not Found\"}}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 69,
+  "topRow": 56,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
