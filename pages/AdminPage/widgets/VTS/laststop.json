@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 36,
+  "bottomRow": 40,
   "boxShadow": "none",
   "defaultOptionValue": "Bus",
   "dynamicBindingPathList": [
@@ -11,12 +11,21 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
+    },
+    {
+      "key": "optionValue"
+    },
+    {
+      "key": "optionLabel"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -41,7 +50,7 @@
   "mobileTopRow": 37,
   "needsErrorInfo": false,
   "optionLabel": "name",
-  "optionValue": "code",
+  "optionValue": "name",
   "parentColumnSpace": 6.53125,
   "parentId": "abjnoai6ql",
   "parentRowSpace": 10,
@@ -50,10 +59,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 57,
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"Car\",\n    \"code\": \"Car\"\n  },\n  {\n    \"name\": \"Bus\",\n    \"code\": \"Bus\"\n  },\n  {\n    \"name\": \"Van\",\n    \"code\": \"Van\"\n  }\n]",
-  "topRow": 32,
+  "sourceData": "{{geofencelist.data}}",
+  "topRow": 36,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "d0gr11130u",
-  "widgetName": "SelectVehicleType"
+  "widgetId": "d0d3xnivey",
+  "widgetName": "laststop"
 }

@@ -6,6 +6,7 @@
 	"modelName":modelname.text,
 	"modelYear":modelyear.text,
 	"vehicleType":SelectVehicleType.selectedOptionValue,
-	"DeviceSerialNumber":deviceserialnumber.text
+	"DeviceSerialNumber":deviceserialnumber.text,
+	"LastStop":laststop.selectedOptionValue
 }
 }}
