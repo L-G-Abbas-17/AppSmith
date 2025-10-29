@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 59,
+  "bottomRow": 58,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -39,8 +39,8 @@
     "carCompany",
     "modelName",
     "modelYear",
-    "vehicleType",
     "vehiclestatus",
+    "vehicleType",
     "DeviceMessageID",
     "MessageTime",
     "DeviceId",
@@ -60,7 +60,7 @@
     "TripStopTime",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1761583549074,
+  "columnUpdatedAt": 1761753971342,
   "columnWidthMap": {},
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -175,9 +175,6 @@
     },
     {
       "key": "primaryColumns.EditActions1.isDiscardDisabled"
-    },
-    {
-      "key": "primaryColumns.LastStop.selectOptions"
     }
   ],
   "dynamicPropertyPathList": [
@@ -206,7 +203,7 @@
   "isVisibleSearch": true,
   "key": "7wuv9vqe0k",
   "label": "Data",
-  "leftColumn": 0,
+  "leftColumn": 1,
   "minWidth": 450,
   "mobileBottomRow": 32,
   "mobileLeftColumn": 13,
@@ -589,7 +586,7 @@
       "label": "LastStop",
       "notation": "standard",
       "originalId": "LastStop",
-      "selectOptions": "{{(() => { const tableData = Vehicles_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (geofencelist.data[0].name)) : geofencelist.data[0].name })()}}",
+      "selectOptions": "const formattedList = geofenceList.map(item => ({\n  label: item.name,\n  value: item.id\n}))\n",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -1071,7 +1068,9 @@
       "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
-      "validation": {},
+      "validation": {
+        "isColumnEditableCellRequired": false
+      },
       "verticalAlignment": "CENTER",
       "width": 150
     },

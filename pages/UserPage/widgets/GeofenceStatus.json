@@ -4,7 +4,7 @@
   "borderColor": "#231f20",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 68,
+  "bottomRow": 73,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -46,13 +46,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "{{ vehicleinfo.data[0]?.speed != null ? vehicleinfo.data[0].speed : \"Speed Not Found\" }}",
+  "text": "{{vehicleinfo.data[0]?.GeoFenceStatus? vehicleinfo.data[0]?.GeoFenceStatus:\"Geofence Status Not Found\"}}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 64,
+  "topRow": 69,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "64sg332w9p",
-  "widgetName": "speed"
+  "widgetId": "8do7bs7xeq",
+  "widgetName": "GeofenceStatus"
 }
