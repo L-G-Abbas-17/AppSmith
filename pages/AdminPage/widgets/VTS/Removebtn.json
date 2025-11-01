@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 67,
+  "bottomRow": 68,
   "boxShadow": "none",
   "buttonColor": "#b91c1c",
   "buttonVariant": "PRIMARY",
@@ -39,7 +39,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 62,
   "text": "Remove",
-  "topRow": 63,
+  "topRow": 64,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "wo26juvygi",
