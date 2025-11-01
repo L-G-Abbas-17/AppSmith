@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "68cfb469f9328044162b3f96_c2a8bb8b-362d-4285-a3f8-b45f115d1f44",
+  "id": "UserPage_autoreferesh",
+  "unpublishedCollection": {
+    "name": "autoreferesh",
+    "pageId": "UserPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "intervalId",
+        "value": "null"
+      }
+    ]
+  }
+}
