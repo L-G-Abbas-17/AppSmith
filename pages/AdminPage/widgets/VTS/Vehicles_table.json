@@ -60,7 +60,7 @@
     "LastIdleTime",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1761757310101,
+  "columnUpdatedAt": 1761973292417,
   "columnWidthMap": {},
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -422,7 +422,7 @@
       "saveBorderRadius": "{{Vehicles_table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
       "saveButtonColor": "{{Vehicles_table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
       "saveIconAlign": "left",
-      "sticky": "right",
+      "sticky": "",
       "thousandSeparator": true,
       "validation": {},
       "width": 150
@@ -555,7 +555,7 @@
       "label": "LastIdleTime",
       "notation": "standard",
       "originalId": "LastIdleTime",
-      "sticky": "right",
+      "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
